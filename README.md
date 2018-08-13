@@ -8,8 +8,6 @@ Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. It r
 
 # Getting started
 
-Details
-=======
 
 Environment variables
 ---------------------
