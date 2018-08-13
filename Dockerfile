@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
-MAINTAINER Rob Haswell <me@robhaswell.co.uk>
-ENV http_proxy "http://web-proxy.houston.hpe.com:8080"
+MAINTAINER Kabir Rana <contact@dockerworx.com>
+#ENV http_proxy "Corporate_proxy:8080"
 
 RUN apt-get update
 RUN apt-get -qqy upgrade
