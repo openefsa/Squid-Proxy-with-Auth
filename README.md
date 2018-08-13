@@ -1,4 +1,4 @@
-# Squid-Proxy-with-Auth
+# Squid-Proxy-with-Auth-Caching-Another-Proxy
 
 # Introduction
 
