@@ -43,16 +43,16 @@ CACHE_PEER=user:password@parent.proxy.example.com:8080
 
 Clone the Repo:
 ```
-git clone 
+git clone https://github.com/dockerworxinc/Squid-Proxy-with-Auth.git
 ```
 
 Build the image:
 ```
-cd repo-name
+cd Squid-Proxy-with-Auth
 ```
 
 ```
-  sudo docker build -t dockerworx/docker-squid .
+  docker build -t dockerworx/docker-squid .
 ```
 
 Usage:
