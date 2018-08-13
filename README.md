@@ -52,7 +52,7 @@ cd Squid-Proxy-with-Auth
 ```
 
 ```
-  docker build -t dockerworx/docker-squid .
+docker build -t dockerworx/docker-squid .
 ```
 
 Usage:
@@ -65,10 +65,7 @@ Usage:
 
 - Set CACHE_PEER to an url of your parent (upstream) proxy. Supports login authentication.
 
-An example invocation would be:
 
-```
-docker run -e SQUID_USERNAME=foo -e SQUID_PASSWORD=bar -p 3128:3128 robhaswell/squid-authenticated
 ```
 Examples:
 
