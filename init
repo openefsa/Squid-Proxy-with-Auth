@@ -25,7 +25,6 @@ if [ -n "${CACHE_PEER}" ]; then
 fi
 
 # -X verbose debug logging
-# -N Don't run in daemon mode - important for docker
 #squid -N -X
 htpasswd -bc /usr/etc/passwd "${SQUID_USERNAME}" "${SQUID_PASSWORD}"
 exec squid3 -N $*
