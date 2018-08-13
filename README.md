@@ -64,7 +64,6 @@ Usage:
 - Set CACHE_PEER to an url of your parent (upstream) proxy. Supports login authentication.
 
 
-```
 Examples:
 
 ```
